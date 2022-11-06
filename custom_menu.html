@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custome Dropedown Menu</title>
+    <!-- font awasam cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custome css link -->
+    <link rel="stylesheet" href="custome_menu_style.css">
+    <!-- responsive css link -->
+    <link rel="stylesheet" href="responsive.css">
+
+
+</head>
+<body>
+    <header class="header_part">
+        <div class="top_header">
+            <section>
+                <div class="container">
+                    <div class="">
+                        <div class="row">
+                            <div class="col-3 col-md-6 col-lg-6">
+                                <div class="top_left">
+                                    <ul>
+                                        <li> <a href=""> My Jobs</a></li>
+                                        <li> <a href="">Create CV</a></li>
+                                        <li> <a href="">Language</a><i class="fa-solid fa-chevron-down"></i>
+                                            <!-- <div class="dorpdown_menu">
+                                                <a href="">link 1</a>
+                                                <a href="">link 2</a>
+                                            </div> -->
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-3 col-md-6 col-lg-6">
+                                 <div class="top_right d-flex justify-content-end">
+                                    <div class="top_right_solical me-3">
+                                        <ul>
+                                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="top_text_part">
+                                        <a href="">Employer?</a>
+                                        <a href="">Account</a>
+                                    </div> 
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="bottom_header">
+            <section>
+                <div class="container">
+                    <div class="">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-2">
+                                <div class="image_part d-flex justify-content-between align-items-center">
+                                    <a href="">
+                                        <img src="images/logo/logo 1.png" alt="">
+                                    </a>
+                                    <i class="fa fa-bars d-md-none" onClick="mobileClick()"></i>
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 col-lg-3 d-sm-none">
+                                <div class="logo menubar-mobile d-flex justify-content-between align-items-center" onClick="mobileClick()">
+                                    <span>MENUBAR</span>
+                                    <i class="fa fa-bars d-lg-none"></i>
+                                </div>
+                            </div> -->
+                            <div class="col-9 col-md-9 col-lg-10 d-none d-md-block">
+                                <div class="bottom_menubar_part">
+                                    <nav class="navbar navbar-expand-sm">
+                                        <div class="navbar_menu">
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item"><a class="nav-link" href="">Services & sectors<i class="fa-solid fa-chevron-down"></i></a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">CV/Job Packages</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Browse Jobs</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Companies</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Candidates</a></li>
+                                                <li class="nav-item"><a class="nav-link post_btn" href=""><i class="fa-solid fa-plus"></i>Post Job</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>   
+    </header>
+
+            <!--    MOBILE MENU-->
+            <div id="mobile-menu" class="mobile-menu">
+                <!-- accordion-->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+        
+                    <div class="mobile-logo mb-3">
+                        <a href="#">
+                            <img src="images/logo/logo 1.png" alt="mobile-logo">
+                        </a>
+                        <i id="mobile-cross" class="fa fa-times" onClick="mobileClick()"></i>
+                    </div>
+        
+        
+        
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                All Category
+                            </button>
+                        </h2>
+                        <div id="two" class="accordion-collapse collapse" aria-labelledby="two" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body custom">
+                                <ul>
+                                    <li class="nav-item"><a class="nav-link" href="">Services & sectors<i class="fa-solid fa-chevron-down"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="">CV/Job Packages</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="">Browse Jobs</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="">Companies</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="">Candidates</a></li>
+                                    <li class="nav-item"><a class="nav-link post_btn" href=""><i class="fa-solid fa-plus"></i>Post Job</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                    <div class="accordion-item custom ">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <a href="#">
+                                <button class="accordion-button custom collapsed none" type="button">
+                                    Wigs Collection
+                                </button>
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="accordion-item custom">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <a href="#">
+                                <button class="accordion-button custom collapsed none" type="button">
+                                    Today’s Deal
+                                </button>
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="accordion-item custom">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <a href="#">
+                                <button class="accordion-button custom collapsed none" type="button">
+                                    Offer
+                                </button>
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="accordion-item custom">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <a href="#">
+                                <button class="accordion-button custom collapsed none" type="button">
+                                    Blog
+                                </button>
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="accordion-item custom">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <a href="#">
+                                <button class="accordion-button custom collapsed none" type="button">
+                                    About
+                                </button>
+                            </a>
+                        </h2>
+                    </div>
+        
+        
+                </div>
+        
+            </div>
+            <div id="mobileOverlay" class="mobile-overlay" onClick="mobileClick()"></div>
+            
+            <!--    MOBILE MENU END-->
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+            <script src="min.js"></script>  
+            <script>
+              //        MOBILE MENU
+              function mobileClick() {
+                  $("#mobile-menu").toggleClass('mobileAdd');
+                  $("#mobileOverlay").toggleClass('mobile-overlay');
+              }
+              //        MOBILE MENU END
+          
+          </script>
+</body>
+</html>
