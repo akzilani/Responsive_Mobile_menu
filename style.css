@@ -1,0 +1,556 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(img/bg-img.jpg);
+    /* background-position: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-origin: content-box; */
+    /* background-attachment: fixed;     */
+    background-size: 1000px 700px;
+}
+
+.header_left_part{
+
+}
+
+.header_middle_part{
+
+
+}
+.header_middle_part img{
+    margin-top: 0px;
+    height: 130px;
+    opacity: 0.7;
+}
+.header_right_part{
+    float: right;
+    padding-top: 2rem;
+}
+
+.header_nav ul li a{
+    color: #8c5deb ;
+    padding: 3px 5px;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: black;
+    margin: 0px 13px;
+}
+.header_nav ul li a:hover{
+    color: #ffffff;
+    padding: 3px 5px;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: #8c5deb;
+    margin: 0px 13px;
+}
+.lanuage a{
+    padding: 3px 5px;
+    font-size: 19px;
+    font-weight: 600;
+    background-color:#987D36;
+    margin: 0px 13px;
+    color: aliceblue;
+
+}
+
+/* card part */
+.card_left_top_part{
+
+}
+.card_left_top_part img{
+    height: 130px;
+    float: left;
+    width: 100%;
+}
+.card_right_top_part{
+
+}
+.card_right_top_part img{
+    height: 130px;
+    float: right;
+    width: 100%;
+}
+
+/* middle card */
+.card_left_middle_part{
+
+}
+.card_left_middle_part img{
+    height: 180px;
+    float: left;
+    width: 100%;
+}
+.card_right_middle_part{
+
+}
+.card_right_middle_part img{
+
+    height: 180px;
+    float: right;
+    width: 100%;
+}
+
+/* bottom */
+.card_left_bottom_part{
+
+}
+.card_left_bottom_part img{
+    height: 130px;
+    float: left;
+    width: 100%;
+
+}
+.card_right_bottom_part{
+
+}
+.card_right_bottom_part img{
+
+    height: 130px;
+    float: right;
+    width: 100%;
+}
+
+/* sushi experencies */
+.experiences_left_part{
+    height: 350PX;
+    width: 100%;
+    color: #ffffff;
+    background: #000000;  
+ 
+}
+.experiences_left_part p{
+
+
+}
+.experiences_left_part a{
+
+    text-decoration: none;
+    font-size: 25px;
+    color:#987D36;
+    font-weight: 600;
+
+}
+.experiences_right_part{
+
+}
+.experiences_right_part img{
+    height: 350px;
+    width: 100%;
+}
+
+/* form part */
+.box{
+    height: auto;
+    width: 100%;
+    background: black;
+    color: #8c5deb;
+    border: 2px solid #8c5deb ;
+}
+.contact input{
+    background: #000;
+    border-left-color: #000;
+    border-right-color: #000;
+}
+.payment_text{
+    font-size: 12px;
+    font-style: italic;
+}
+input .payment {
+    background: #000;
+}
+.card_img img:hover {
+    background: rgba(29, 236, 197, 0.5);   
+}
+.card_box_one{
+    height: 40px;
+    width: 100%;
+    background: #000000;
+    color: #8c5deb;
+    border: 2px solid #ffffff
+
+}
+.card_box_two{
+    height: 7px;
+    width: 100%;
+    border: 1px solid #ffffff;
+    border-top: none;
+
+}
+.card_box_one:hover{
+    height: 40px;
+    width: 100%;
+    background: #000000;
+    color: #8c5deb;
+    border: 2px solid #ffffff;
+    background: #ffffff;
+}
+.upload_one{
+    background: none;
+    color: #8c5deb;
+    border: none;
+}
+
+*********************
+
+  
+  .file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+  
+  .file-upload-content {
+    display: none;
+    text-align: center;
+  }
+  
+  .file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .upload_kitchen{
+    border: none;
+    background: none;
+    color:#8c5deb
+  }
+  .message_area{
+    background: #000;
+  }
+  .confirm{
+    background:#987D36;
+    border: none;
+  }
+  .confirm:hover{
+    background: #987D36;
+    border: none;
+  }
+  .confirm_two{
+    border: 1px solid #987D36;
+    border-top: none;
+    height: 5px;
+
+  }
+
+  /* event */
+  .event_left_part{
+    position: relative;
+  }
+
+  .event_left_part  img{
+    height: 370px;
+    width: 100%;
+  }
+  .event_left_part_text{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 25px;
+    position: absolute;
+    height: 40px;
+    top: 80%;
+    left: 32%;
+    text-align: center;
+  }
+  .event_right_part{
+    position: relative;
+  }
+  .event_right_part img{
+    height: 370px;
+    width: 100%;
+  }
+  .event_right_part_text{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 25px;
+    position: absolute;
+    height: 40px;
+    top: 80%;
+    left: 32%;
+    text-align: center;
+  }
+
+  /* chefe at home  */
+  .chef_home_left_part{
+
+    height: 370px;
+    width: 100%;
+    background: #000;
+  }
+    
+  .chef_home_left_part h4{
+    color: #5b42a6;
+  }  
+  .read_more{
+    color: #987d36;    
+  }
+  .sign_form:hover{
+    color: #ffffff;
+    background: #0B5ED7;
+  }  
+  
+  .sign_form{
+    color: #5b42a6;
+    background: #ffffff;
+  }
+
+  .chef_home_right_part img{
+    height: 370px;
+    width: 100%;
+  }
+  .takeway_left_part{
+    height: 400px;
+    width: 100%;
+    background: #000;
+  }
+  .takeway_left_part img{
+    height: 100%;
+    width: 100%;
+  }
+  /* takeway details */
+  .takeway_call{
+    color: #5b42a6;
+  }
+  .takeway_close{
+    color: #987d36;    
+  }
+  .takeway_right_part{
+    background: #7D50DB;
+    height: 400px;
+    width: 100%;
+  }
+  .takeway_right_part h3{
+    color: #9d842f;
+  } 
+   .takeway_right_part h5{
+    color: #000000;
+  }
+  .takeway_right_part a{
+    color:#7D50DB ;
+    background: #ffffff;
+  }
+  .takeway_right_part a:hover{
+    color:#ffffff;
+    background: #7D50DB;
+    border: 1px solid #ffffff;
+  }
+
+  /* responsive navbar */
+
+
+/* bottom header start */
+.image_part a img{
+  height:auto;
+  width:150px;
+  margin-top: 5px;
+  padding-left: 30px;
+ }
+ .bottom_menubar_part{
+     float: right;
+ }
+ .navbar_menu ul{
+ 
+ }
+ .navbar_menu ul li{
+     padding: 0px 15px;
+ }
+ .navbar_menu ul li a{
+ color:#666666;
+ font-size: 14px;
+ font-family: 'Open Sans';
+ line-height: 19px;
+ 
+ }
+ .navbar_menu ul li a:hover{
+     color:#6914C1;
+ 
+ }
+ .navbar_menu .post_btn{
+     font-size: 18px;
+     padding: 10px 15px;
+     background-color: #00A550;
+     color: #ffffff;
+ 
+ }
+ .navbar_menu .post_btn:hover{
+     color: #ffffff;
+ }
+ .navbar_menu .post_btn i{
+ padding: 0px 7px;
+ }
+ 
+ /* bottom header end */
+ .drope_down_text{
+  color: #7D50DB;
+  background: #000;
+  font-weight: 700;
+ }
+  .drope_down_text:hover{
+  background: #7D50DB;
+  color: #ffffff !important;
+ }
+ .drop_menu{
+  color: #8C5DEB;
+  background: #000;
+  font-size: 14px;
+  font-weight: 700;
+ } 
+ .drop_menu_language{
+
+ }
+ .drop_menu:hover{
+  color: #ffffff;
+  background: #8C5DEB;
+ }
+ .drop_menu_one {
+  color: #ffffff;
+  background: #000;
+ }
+ .c_left_image{
+  height: 150px;
+  width: 250px;
+ }
+ .contact_right{
+  border-left: 2px solid #ffffff;
+  
+ }
+ .contact_right_email{
+  /* font-size: 12px; */
+ }
+ .c_social_part a{
+  border: 1px solid #987D36;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+ }
+ .c_social_part a i{
+  color: #987D36;
+ }
+ .c_right_top span{
+  color: #987D36;
+}
+.c_right_middle_left span{
+  color: #987D36;
+}
+.c_right_middle_right span{
+  color: #987D36;
+}
+.c_right_bottom span{
+  color: #987D36;
+}
+
+ /* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+  .drope_down_text{
+    margin-top: 35px;
+  }
+  .drop_menu_language{
+    margin-top: 42px;
+    background: #987D36;
+    font-weight: 800;
+    color: #ffffff;
+  } 
+   .drop_menu_language:hover{
+    margin-top: 42px;
+    background:#8C5DEB;
+    color: #ffffff;
+    font-weight: 800;
+  }
+  .contact_right{
+    padding-left: 30px;
+    margin-top: 50px;
+
+   
+  }
+  .contact_left{
+    padding-top: 38px;
+    padding-bottom: 38px;
+  }
+
+  .form_body_part{
+     padding-top:40px;
+  }
+
+  
+
+
+ 
+}
+
+
+@media all and (max-width: 320px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+
+  /* .drop_menu_language{
+    margin-top: 41px;
+    background: #987D36;
+    font-weight: 800;
+    color: #ffffff;
+  } 
+   .drop_menu_language:hover{
+    margin-top: 41px;
+    background:#8C5DEB;
+    color: #ffffff;
+    font-weight: 800;
+  } */
+  .contact_right{ 
+    border: none;
+    text-align: center;
+   
+  } 
+  .drop_menu_language{
+display: none;
+  } 
+  .event_left_part_text {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 25px;
+    position: absolute;
+    height: 40px;
+    top: 80%;
+    left: 18%;
+    text-align: center;
+  }
+  .event_right_part_text {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 25px;
+    position: absolute;
+    height: 40px;
+    top: 80%;
+    left: 14%;
+    text-align: center;
+  }
+  .header_right_part{
+    padding-top: 0px;
+  }
+  .experiences_right_part img{
+    padding-top: 1rem;
+  }
+  .chef_home_right_part img{
+    padding-top: 0.0rem;
+  }
+  .header_middle_part img{
+    width: 100%;
+
+  }
+
+}	
+/* ============ desktop view .end// ============ */
+
