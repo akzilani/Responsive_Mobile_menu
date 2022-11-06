@@ -10,6 +10,7 @@
     margin-top: 5px;
     padding-left: 30px;
 }
+
 .bottom_menubar_part{
     float: right;
 }
@@ -224,6 +225,7 @@
 .custom.accordion-button:focus {
     border: none;
 }
+
 /*ACCORDION CUSTOM END*/
 
 /* Responsive css Start */
