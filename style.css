@@ -457,6 +457,11 @@ input .payment {
 .dropdown-menu{
   background:  #000;
 }
+.mobile_icon{
+  background: #ffffff;
+  /* height: 18px;
+  width: 12px; */
+}
 
  /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
